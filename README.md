@@ -36,17 +36,6 @@ cp -r tech-daily-digest ~/.openclaw/workspace/skills/
                                                   timeliness
 ```
 
-### vs. ai-daily-digest
-
-| | ai-daily-digest | tech-daily-digest |
-|--|-----------------|-------------------|
-| AI Provider | Gemini API (external) | Agent's own LLM (built-in) |
-| Extra API Key | ✅ Required | ❌ Not needed |
-| Rate Limits | Gemini free tier limits | No limits (uses your model) |
-| Runtime | Bun | Node.js 18+ (ships with OpenClaw) |
-| Dependencies | bun, external API | Zero |
-| Distribution | Git clone + manual | `clawhub install` |
-
 ## Configuration
 
 ### Time Range
