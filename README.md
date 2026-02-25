@@ -9,7 +9,7 @@ From [Andrej Karpathy](https://x.com/karpathy)'s curated 92 top tech blogs, auto
 ### Install as OpenClaw Skill
 
 ```bash
-clawhub install tech-daily-digest
+clawhub install ai-daily-digest
 ```
 
 Then in any OpenClaw chat:
@@ -21,8 +21,8 @@ Then in any OpenClaw chat:
 ### Manual Installation
 
 ```bash
-git clone https://github.com/HarrisHan/tech-daily-digest.git
-cp -r tech-daily-digest ~/.openclaw/workspace/skills/
+git clone https://github.com/HarrisHan/ai-daily-digest.git
+cp -r ai-daily-digest ~/.openclaw/workspace/skills/
 ```
 
 ## How It Works
@@ -59,7 +59,7 @@ Edit `references/sources.json` to add/remove RSS feeds:
 
 ```bash
 openclaw cron add \
-  --name "tech-daily-digest" \
+  --name "ai-daily-digest" \
   --cron "0 9 * * *" \
   --tz "Asia/Shanghai" \
   --message "/digest" \
@@ -75,7 +75,7 @@ Simon Willison · Paul Graham · Dan Abramov · Gwern · Krebs on Security · An
 ## Project Structure
 
 ```
-tech-daily-digest/
+ai-daily-digest/
 ├── SKILL.md              # OpenClaw skill definition
 ├── README.md             # This file
 ├── scripts/

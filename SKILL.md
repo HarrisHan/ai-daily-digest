@@ -1,5 +1,5 @@
 ---
-name: tech-daily-digest
+name: ai-daily-digest
 description: "Generate a daily tech news digest from 90+ top tech blogs (curated by Karpathy). Trigger with /digest. Fetches RSS feeds, scores articles by relevance/quality, and produces a structured Chinese/English summary. No external API keys needed — uses the agent's own LLM for scoring and summarization."
 ---
 
